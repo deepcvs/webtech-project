@@ -1,2 +1,6 @@
 # hello-world
-First Repository
+
+This is my first Repository.
+
+
+I like learning web dev.
