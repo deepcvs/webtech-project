@@ -11,7 +11,6 @@ const express = require("express"),
     localStrategy = require("passport-local"),
     fs = require("fs"),
     flash = require("connect-flash"),
-    // resize = require("./resize"),
     User = require("./models/user"),
     Activity = require("./models/activity"),
     Issue = require("./models/issue"),
@@ -23,9 +22,7 @@ const express = require("express"),
     middleware = require("./middleware"),
     Seed = require('./seed');
 
- //Seed(1000);
-
- 
+    
  if (process.env.NODE_ENV !== "production") require("dotenv").config();
 
 // app config
