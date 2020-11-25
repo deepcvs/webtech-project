@@ -1,6 +1,5 @@
-# hello-world
+# LIBRARY MANAGEMENT SYSTEM
 
-This is my first Repository.
+This is the implementation of a library management system.
 
-
-I like learning web dev.
+The utilities used are Mongodb, Expressjs, Nodejs and Reactjs.
