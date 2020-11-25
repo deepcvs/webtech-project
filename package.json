@@ -1,0 +1,22 @@
+{
+  "name": "webtech-project",
+  "version": "1.0.0",
+  "description": "This is the implementation of a library management system.",
+  "main": "web_app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/deepcvs/webtech-project.git"
+  },
+  "keywords": [
+    "MERN"
+  ],
+  "author": "Anudeep CVS",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/deepcvs/webtech-project/issues"
+  },
+  "homepage": "https://github.com/deepcvs/webtech-project#readme"
+}
