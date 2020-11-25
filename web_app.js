@@ -22,7 +22,7 @@ const express = require("express"),
     middleware = require("./middleware"),
     Seed = require('./seed');
 
-    
+
  if (process.env.NODE_ENV !== "production") require("dotenv").config();
 
 // app config
@@ -96,7 +96,7 @@ app.use(bookRoutes);
 app.use(authRoutes);
 
 
-app.listen(3000, () =>{
-   console.log(`Server is running at: http://localhost:3000`); 
+app.listenSync(8080, () =>{
+   console.log(`Server is running at: http://localhost:8080`); 
 });
     
